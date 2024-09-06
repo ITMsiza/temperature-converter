@@ -1,0 +1,104 @@
+.section{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.container{
+    display: flex;
+    height: 500px;
+    width: 900px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0496c7;  
+    position: relative;
+    left: 230px;
+}
+.tempInput{
+    box-sizing: border-box;
+    padding: 50px;
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.tempInput h2{
+    color: #0496c7;
+}
+.output{
+    background-color: #0496c7;
+    width: 50%;
+    position: relative;
+}
+.output p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.DegInput{
+    margin-top: 40px;
+}
+.DegInput div{
+    color: #0496c7;
+    font-weight: 500;
+}
+.DegInput input{
+    margin-top: 10px;
+    padding: 6px;
+    width: 230px;
+}
+.DegInput select{
+    padding: 6px; 
+}
+.FahrenInput{
+    margin-top: 50px;
+}
+.FahrenInput select{
+    margin-top: 10px;
+    padding: 6px;
+    width: 300px;
+}
+.FahrenInput div{
+    color: #0496c7;
+    font-weight: 500;
+}
+
+.tempInput button{
+    margin-top: 90px;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: large;
+    width: 150px;
+    border-radius: 40px;
+    background-color: #0496c7;
+    border: none;
+    outline: none;
+    color: white;
+}
+.output p{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: inherit;
+    position: relative;
+    font-size: 60px;
+    left: 400px;
+}
+.output p span{
+    position: relative;
+    top: -30px;
+    font-size: 25px;
+}
+.DegInput select option{
+    position: relative;
+}
+.DegInput select option span{
+    position: relative;
+    top:100px;
+}
